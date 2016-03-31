@@ -1,0 +1,34 @@
+{
+  "name": "Kidults",
+  "title": "Kidults",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mattimatti/kidults",
+  "author": {
+    "name": "Matteo Monti",
+    "email": "mmonti@gmail.com",
+    "url": "http://www.mattimatti.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mattimatti/kidults.git"
+  },
+  "dependencies": {
+    "express": "3.x"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "express": "3.x",
+    "grunt": "^0.4.5",
+    "grunt-bower-requirejs": "^2.0.0",
+    "grunt-bump": "^0.7.0",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-reload": "^0.2.0",
+    "load-grunt-tasks": "^3.4.1",
+    "uglify-js": "~2.2.5"
+  },
+  "main": "./server/server"
+}
